@@ -197,12 +197,12 @@ export default function FeatureFive() {
               <div className="flex justify-between items-center w-full px-4">
                 <div className="flex items-center gap-2 text-[#606060]">
                     <p className={`${openSans.className} text-[0.89625rem] font-normal leading-[1.3075rem] tracking-[0.01em]`}>Mar 1, 2024</p>
-                    <Image src='/feature-five/hexagon.png' alt="hexagon" width={6} height={6} className="mx-2" />
+                    <Image src='/landing/feature-five/hexagon.png' alt="hexagon" width={6} height={6} className="mx-2" />
                     <p className={`${openSans.className} text-[0.89625rem] font-normal leading-[1.3075rem] tracking-[0.01em]`}>12:00 PM</p>
                 </div>
                 <div className="flex items-center gap-4 text-[#606060] ">
-                    <Image src='/feature-five/bell.png' alt="bell" width={22} height={22} className="cursor-pointer" />
-                    <Image src='/feature-five/share.png' alt="share" width={18} height={20} className="cursor-pointer" />
+                    <Image src='/landing/feature-five/bell.png' alt="bell" width={22} height={22} className="cursor-pointer" />
+                    <Image src='/landing/feature-five/share.png' alt="share" width={18} height={20} className="cursor-pointer" />
                 </div>
               </div>
               <h4 className="font-bold text-[1.1rem] px-4 pt-2">
