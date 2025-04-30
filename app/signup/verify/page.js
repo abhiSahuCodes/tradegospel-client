@@ -99,7 +99,7 @@ export default function SignupVerify() {
         </div>
 
         <p className={`${openSans.className} text-center font-normal text-[0.875rem] sm:text-[1rem] leading-[1.25rem] sm:leading-[1.375rem] tracking-[1.5%] mb-[1.5rem] sm:mb-[2.25rem] px-4 sm:px-0`}>
-          We've sent a one-time password (OTP) to your registered email address. Please check your inbox, including your spam folder, for an email from us containing the OTP.
+          We&apos;ve sent a one-time password (OTP) to your registered email address. Please check your inbox, including your spam folder, for an email from us containing the OTP.
         </p>
         
         <form onSubmit={handleSubmit} className="w-full space-y-[2.25rem]">

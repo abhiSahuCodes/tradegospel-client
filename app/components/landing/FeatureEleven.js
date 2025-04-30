@@ -26,7 +26,7 @@ export default function FeatureEleven() {
         </h2>
 
         <p className={`${openSans.className} text-[1rem] sm:text-[1.125rem] lg:text-[1.125rem] font-normal leading-[120%] sm:leading-[100%] tracking-[0%] text-center mt-4 max-w-[1260px]`}>
-          Join TradeGospel today and embark on a journey towards financial success. With our comprehensive educational resources, supportive community, and cutting-edge tools, you'll have everything you need to thrive in the world of finance and trading.
+          Join TradeGospel today and embark on a journey towards financial success. With our comprehensive educational resources, supportive community, and cutting-edge tools, you&apos;ll have everything you need to thrive in the world of finance and trading.
         </p>
 
         {/* Quote Container */}

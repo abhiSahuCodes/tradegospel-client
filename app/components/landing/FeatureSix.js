@@ -17,7 +17,7 @@ export default function FeatureSix() {
             <p
               className={`${openSans.className} text-[1rem] lg:text-[1.125rem] font-normal leading-[130%] lg:leading-[100%] tracking-[0%] text-[#606060] text-left w-full lg:w-[57.9375rem] h-auto lg:h-[3.125rem] mt-[1rem] lg:mt-[2.625rem]`}
             >
-              Don't miss out on the latest market trends and trading
+              Don&apos;t miss out on the latest market trends and trading
               opportunities. Subscribe to Trade Gospel today and become a part
               of the revolution in trading education.
             </p>
