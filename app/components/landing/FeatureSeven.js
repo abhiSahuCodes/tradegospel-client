@@ -61,7 +61,7 @@ export default function FeatureSeven() {
                 <div className="flex items-center gap-2 text-[0.8rem] sm:text-[0.9rem] px-3 sm:px-4 text-[#606060]">
                   <span>{webinar.instructor}</span>
                   <Image
-                    src="landing/feature-five/verified.png"
+                    src="/landing/feature-five/verified.png"
                     alt="Verified"
                     width={14}
                     height={14}
@@ -70,7 +70,7 @@ export default function FeatureSeven() {
                 </div>
                 <div className="flex flex-wrap gap-[0.3rem] sm:gap-[0.41875rem] px-3 sm:px-4 pt-2">
                   {webinar.tags.map((tag, tagIndex) => (
-                    <div key={tagIndex} className="w-auto sm:w-[4.05015625rem] h-[1.3rem] sm:h-[1.565625rem] border-[0.041875rem] rounded-[0.5rem] sm:rounded-[0.628125rem] px-[0.6rem] sm:px-[0.8375rem]">
+                    <div key={tagIndex} className="w-[4.05015625rem] h-[1.565625rem] border-[0.041875rem] rounded-[0.628125rem] px-[0.8375rem]">
                       <span className={`${openSans.className} text-[0.6rem] sm:text-[0.66875rem] font-semibold leading-[100%] tracking-[0.01em] text-[#606060] whitespace-nowrap`}>
                         {tag}
                       </span>
@@ -80,7 +80,7 @@ export default function FeatureSeven() {
                 <div className="flex justify-between items-center w-full px-3 sm:px-4 pt-3 sm:pt-4">
                   <div className="flex items-center gap-1 sm:gap-2">
                     <Image
-                      src='landing/feature-five/users.png'
+                      src='/landing/feature-five/users.png'
                       alt='users'
                       width={15}
                       height={13}

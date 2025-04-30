@@ -150,7 +150,7 @@ export default function SignupUsername() {
           <button
             type="submit"
             disabled={!termsAccepted}
-            className={`${openSans.className} w-full h-[2.5625rem] py-[0.656rem] px-[0.625rem] ${termsAccepted ? 'bg-[#1F6BFF] hover:bg-blue-800' : 'bg-gray-400 cursor-not-allowed'} text-white rounded-lg transition-colors font-semibold text-[0.875rem] cursor-pointer leading-[1.25rem] tracking-[1.25%]`}
+            className={`${openSans.className} w-full h-[2.5625rem] py-[0.656rem] px-[0.625rem] ${termsAccepted ? 'bg-[#1F6BFF] hover:bg-[#1f39ff]' : 'bg-[#84868b] cursor-not-allowed'} text-white rounded-lg transition-colors font-semibold text-[0.875rem] cursor-pointer leading-[1.25rem] tracking-[1.25%]`}
           >
             Continue
           </button>

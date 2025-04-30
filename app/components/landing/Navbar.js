@@ -130,7 +130,7 @@ export default function Navbar() {
               Log IN
             </Link>
             <Link 
-              href="/signup/details" className="your-button-classes">
+              href="/signup/details" className="w-[103px] h-[42px] flex items-center justify-center bg-black text-white rounded-[24px] px-[25px] py-[10px] hover:bg-gray-800 transition-colors whitespace-nowrap">
               Sign Up
             </Link>
           </div>

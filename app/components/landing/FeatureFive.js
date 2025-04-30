@@ -6,7 +6,7 @@ const openSans = Open_Sans({ subsets: ["latin"] });
 
 export default function FeatureFive() {
   return (
-    <div className="flex flex-col items-center gap-16 px-4 md:px-8 xl:px-16 py-12">
+    <div className="flex flex-col items-center gap-3 xl:gap-16 px-4 md:px-8 xl:px-16 py-12">
       <div className="flex flex-col lg:flex-row items-center justify-between gap-8 w-full max-w-[80rem] mx-auto">
         <h2
           className={`${lexend.className} text-[2rem] sm:text-[2.5rem] xl:text-[3rem] font-medium leading-[117%] tracking-[0%] xl:w-[32.125rem] h-[7rem] mt-[0.9375rem] lg:text-left text-center`}
@@ -255,7 +255,7 @@ export default function FeatureFive() {
 
         {/* Right Cards Stack */}
         <div className="space-y-6 w-full mx-auto">
-          <div className="bg-white rounded-[1rem] shadow-lg w-full xl:w-[322px] lg:w-[280px] h-auto xl:h-[310px] lg:h-[290px]">
+          <div className="bg-white rounded-[1rem] shadow-lg w-full xl:w-[322px] lg:w-[280px] h-auto xl:h-[310px] lg:h-[290px] pb-2">
             <div className="relative w-full aspect-video mb-4">
               <Image
                 src="/landing/feature-five/live-trading.png"

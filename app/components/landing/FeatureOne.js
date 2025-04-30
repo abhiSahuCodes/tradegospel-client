@@ -20,7 +20,7 @@ export default function FeatureOne() {
   ]
 
   return (
-    <div className="flex flex-col items-center px-4 md:px-8 xl:px-16 py-12 my-24 max-w-[80rem] mx-auto">
+    <div className="flex flex-col items-center px-4 md:px-8 xl:px-16 py-12 lg:my-24 max-w-[80rem] mx-auto">
       {/* Heading Section */}
       <div className="text-center mb-16">
         <h2 className="text-[1.875rem] sm:text-[2.5rem] font-bold mb-4">
