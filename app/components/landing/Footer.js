@@ -11,7 +11,7 @@ export default function Footer() {
         {/* Logo Section */}
         <div className="w-[244.21px]">
           <Image
-            src="/footer/tg-full-logo.png"
+            src="/landing/footer/tg-full-logo.png"
             alt="TradeGospel Logo"
             width={244.21}
             height={35}
