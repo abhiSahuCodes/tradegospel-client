@@ -61,7 +61,7 @@ export default function FeatureSeven() {
                 <div className="flex items-center gap-2 text-[0.8rem] sm:text-[0.9rem] px-3 sm:px-4 text-[#606060]">
                   <span>{webinar.instructor}</span>
                   <Image
-                    src="/feature-five/verified.png"
+                    src="landing/feature-five/verified.png"
                     alt="Verified"
                     width={14}
                     height={14}
@@ -80,7 +80,7 @@ export default function FeatureSeven() {
                 <div className="flex justify-between items-center w-full px-3 sm:px-4 pt-3 sm:pt-4">
                   <div className="flex items-center gap-1 sm:gap-2">
                     <Image
-                      src='/feature-five/users.png'
+                      src='landing/feature-five/users.png'
                       alt='users'
                       width={15}
                       height={13}
