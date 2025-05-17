@@ -26,13 +26,12 @@ export default function SignupDetails() {
   const handleSubmit = (e) => {
     e.preventDefault();
     
-    // You can add validation here
+    // Validation
     if (!formData.email || !formData.password) {
       alert("Please fill in all fields");
       return;
     }
 
-    // You can handle the form submission here, e.g., API call
     console.log("Form submitted:", formData);
     
     // Navigate to verification page

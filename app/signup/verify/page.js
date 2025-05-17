@@ -16,7 +16,7 @@ export default function SignupVerify() {
     e.preventDefault();
     const pastedData = e.clipboardData.getData('text');
     
-    // Check if pasted content is a 6-digit number
+    // To check if pasted content is a 6-digit number
     if (/^\d{6}$/.test(pastedData)) {
       const digits = pastedData.split('');
       setOtp(digits);
